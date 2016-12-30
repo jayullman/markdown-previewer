@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import marked from 'marked';
 import logo from './logo.svg';
 import './App.css';
 
@@ -17,5 +18,8 @@ class App extends Component {
     );
   }
 }
+
+// marked import test
+console.log(marked('__hello__'));
 
 export default App;
