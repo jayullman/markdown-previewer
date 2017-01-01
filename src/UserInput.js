@@ -7,6 +7,7 @@ class UserInput extends Component {
     return (
       <div className='userInputBox'>
         <textarea
+          className='textBox'
           value={this.props.userInput}
           onChange={this.props.handleChange}
         />

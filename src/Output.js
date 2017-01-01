@@ -10,7 +10,6 @@ class Output extends Component {
       <div className='outputBox' dangerouslySetInnerHTML={this.props.markedUpInput} />
     )
   }
-
 }
 
 export default Output;

@@ -16,19 +16,29 @@
 
 .uiContainer {
   border: 3px solid blue;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 
 .userInputBox {
   border: 3px solid black;
-  width: 100px;
-  height: 100px;
+  min-width: 250px;
+  height: 300px;
+  margin: 20px;
+
+  flex-grow: 1;
 
 }
 
 
+
 .outputBox {
-  border: 3px solid black;
-  width: 100px;
-  height: 100px;
+  border: 3px solid green;
+  min-width: 250px;
+  height: 300px;
+  margin: 20px;
+  flex-grow: 1;
+
 }
