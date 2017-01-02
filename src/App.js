@@ -3,10 +3,8 @@ import UserInput from './UserInput';
 import Output from './Output';
 import Header from './Header';
 
-
 // import the markup library
 import marked from 'marked';
-
 
 // Check out FCC React Challenge 32 for basic architecture of this app
 
