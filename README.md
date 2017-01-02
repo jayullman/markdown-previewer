@@ -15,6 +15,9 @@ Fulfill the below user stories. Use whichever libraries or APIs you need. Give i
 
 I used React.js to create the UI and state management for this project. I paid special attention to managing state from the topmost component, <App/>, and then delegating state changes down to its children (the input and output divs). The children were able to communicate with the <App/> component via a passed down callback from <App/>
 
-Note: this is the first project I built using React. I used the create-react-app
+Notes:
+This is the first project I built using React. I used the create-react-app
 module for the boilerplate for this project. The project is currently being
 hosted by Github pages at https://libeja.github.io/markdown-previewer/
+
+This was also the first project using ES6 syntax and modules along with Webpack.
