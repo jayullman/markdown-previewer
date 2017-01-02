@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import UserInput from './UserInput';
 import Output from './Output';
+import Header from './Header';
+
 
 // import the markup library
 import marked from 'marked';
@@ -29,15 +31,16 @@ class App extends Component {
 
     return (
       <div className="App">
-        <div className="App-header">
-          <h2>Markdown Previewer</h2>
-          <h3>A freeCodeCamp Project</h3>
-        </div>
+        <Header />
         <p className="App-intro">
-          Enter text with the markdown langauge and it will be parsed in real time
-        </p>
+          Enter text with markdown syntax to see it parsed in real time and
+          displayed in the markdown preview area.</p>
+        <p className="App-intro">
+          Check out the <a
+            target="_blank"
+            href="https://en.wikipedia.org/wiki/Markdown#Example">wikipedia</a> example
+            section to learn more.</p>
         <div className="uiContainer">
-
           <UserInput
             userInput={this.state.userInput}
             handleChange={this.handleChange} />

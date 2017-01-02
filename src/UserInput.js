@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
-const placeholderText_userInput = 'Enter text with markdown language here.' +
-  ' See the markeddown text in the next box.'
+const placeholderText_userInput = 'Enter text with markdown language here.';
 
 class UserInput extends Component {
 
