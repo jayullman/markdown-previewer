@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import UserInput from './UserInput';
 import Output from './Output';
-import './styles/App.css';
 
 // import the markup library
 import marked from 'marked';
@@ -38,9 +37,11 @@ class App extends Component {
           Enter text with the markdown langauge and it will be parsed in real time
         </p>
         <div className="uiContainer">
+
           <UserInput
             userInput={this.state.userInput}
             handleChange={this.handleChange} />
+
           <Output markedUpInput={{__html: this.state.markedUpInput}} />
         </div>
       </div>
